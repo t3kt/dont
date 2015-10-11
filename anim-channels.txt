@@ -1,3 +1,3 @@
 name	id	left	right	default	keys	liner	lineg	lineb	picked	display	template
-circle1:radius	1	hold	hold	0	keys	0.7	0.525339	0.14	0	0	0
-transform1:rotate	2	hold	hold	0	keys	0.7	0.684006	0.14	1	1	0
+circle1:radius	1	hold	hold	0	keys	0.7	0.525339	0.14	1	1	0
+transform1:rotate	2	hold	hold	0	keys	0.7	0.684006	0.14	0	0	0
