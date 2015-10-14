@@ -1,6 +1,6 @@
 <?xml version="1.0" standalone="no" ?>
 <!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
-<project xmlns="http://audacity.sourceforge.net/xml/" projname="dont_data" version="1.3.0" audacityversion="2.1.1" sel0="0.0000000000" sel1="205.4524750222" vpos="432" h="0.0000000000" zoom="7.5716976647" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="dont_data" version="1.3.0" audacityversion="2.1.1" sel0="79.2990688042" sel1="79.2990688042" vpos="0" h="0.0000000000" zoom="7.6020538409" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + film frames (24 fps)" frequencyformat="Hz" bandwidthformat="octaves">
 	<tags>
 		<tag name="ARTIST" value="datassette"/>
 		<tag name="TRACKNUMBER" value="3"/>
@@ -11,7 +11,7 @@
 		<tag name="ALBUM" value="People Without Mouths"/>
 		<tag name="COMMENTS" value="Visit http://datassette.bandcamp.com"/>
 	</tags>
-	<wavetrack name="datassette - People Without Mouths - 03 Don&apos;t" channel="0" linked="1" mute="0" solo="0" height="103" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+	<wavetrack name="datassette - People Without Mouths - 03 Don&apos;t" channel="0" linked="1" mute="0" solo="0" height="66" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
 		<waveclip offset="0.00000000">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="10151822">
 				<waveblock start="0">
@@ -135,7 +135,7 @@
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<wavetrack name="datassette - People Without Mouths - 03 Don&apos;t" channel="1" linked="0" mute="0" solo="0" height="591" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+	<wavetrack name="datassette - People Without Mouths - 03 Don&apos;t" channel="1" linked="0" mute="0" solo="0" height="382" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
 		<waveclip offset="0.00000000">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="10151822">
 				<waveblock start="0">
@@ -259,26 +259,24 @@
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<labeltrack name="synth a" numlabels="12" height="73" minimized="0" isSelected="1">
-		<label t="136.8790180666" t1="140.1410439404" title="synth a"/>
-		<label t="140.1410439404" t1="143.4582248410" title="synth a"/>
-		<label t="143.4582248410" t1="146.7202507148" title="synth a"/>
-		<label t="156.4748111780" t1="159.7368370518" title="synth a"/>
-		<label t="159.7368370518" t1="163.0540179524" title="synth a"/>
-		<label t="163.0540179524" t1="166.3160438262" title="synth a"/>
-		<label t="175.9839321043" t1="179.2459579781" title="synth a"/>
-		<label t="179.2459579781" t1="182.5631388788" title="synth a"/>
-		<label t="182.5631388788" t1="185.8251647526" title="synth a"/>
-		<label t="195.6112423740" t1="198.8732682478" title="synth a"/>
-		<label t="198.8732682478" t1="202.1904491484" title="(synth a)"/>
-		<label t="202.1904491484" t1="205.4524750222" title="(synth a)"/>
+	<labeltrack name="synth_a" numlabels="10" height="73" minimized="0" isSelected="0">
+		<label t="136.8790180666" t1="140.1410439404" title="synth_a"/>
+		<label t="140.1410439404" t1="143.4582248410" title="synth_a"/>
+		<label t="143.4582248410" t1="146.7202507148" title="synth_a"/>
+		<label t="156.4748111780" t1="159.7368370518" title="synth_a"/>
+		<label t="159.7368370518" t1="163.0540179524" title="synth_a"/>
+		<label t="163.0540179524" t1="166.3160438262" title="synth_a"/>
+		<label t="175.9839321043" t1="179.2459579781" title="synth_a"/>
+		<label t="179.2459579781" t1="182.5631388788" title="synth_a"/>
+		<label t="182.5631388788" t1="185.8251647526" title="synth_a"/>
+		<label t="195.6112423740" t1="198.8732682478" title="synth_a"/>
 	</labeltrack>
-	<labeltrack name="ping" numlabels="24" height="113" minimized="0" isSelected="0">
-		<label t="89.7793726539" t1="90.0559602791" title="ping"/>
+	<labeltrack name="ping" numlabels="24" height="113" minimized="0" isSelected="1">
+		<label t="89.6837169323" t1="89.6837169323" title="ping"/>
 		<label t="92.9358682712" t1="92.9358682712" title="ping"/>
 		<label t="96.2088218360" t1="96.2088218360" title="ping"/>
 		<label t="109.2666691936" t1="109.2666691936" title="ping"/>
-		<label t="112.5420489656" t1="112.5420489656" title="pin"/>
+		<label t="112.5420489656" t1="112.5420489656" title="ping"/>
 		<label t="115.8028714942" t1="115.8028714942" title="ping"/>
 		<label t="128.8679974736" t1="128.8679974736" title="ping"/>
 		<label t="132.1360986239" t1="132.1360986239" title="ping"/>
@@ -308,89 +306,87 @@
 		<label t="23.7525688650" t1="23.7525688650" title="B"/>
 	</labeltrack>
 	<labeltrack name="vocal" numlabels="65" height="73" minimized="0" isSelected="0">
-		<label t="19.2827829632" t1="20.4937789947" title="vocal a"/>
-		<label t="20.4937789947" t1="21.7217120336" title="vocal echo"/>
-		<label t="21.7217120336" t1="22.5939679164" title="vocal b"/>
-		<label t="22.5939679164" t1="23.8049639479" title="vocal a"/>
-		<label t="23.8049639479" t1="24.9566804534" title="vocal echo"/>
-		<label t="24.9566804534" t1="25.9051528697" title="vocal b"/>
-		<label t="25.9051528697" t1="27.1161489012" title="vocal a"/>
-		<label t="27.1161489012" t1="28.3440819402" title="vocal echo"/>
-		<label t="38.9029704087" t1="40.1139664402" title="vocal a"/>
-		<label t="40.1139664402" t1="41.3418994791" title="vocal echo"/>
-		<label t="41.3418994791" t1="42.2141553619" title="vocal b"/>
-		<label t="42.2141553619" t1="43.4251513934" title="vocal a"/>
-		<label t="43.4251513934" t1="44.5768678989" title="vocal echo"/>
-		<label t="44.5768678989" t1="45.5253403152" title="vocal b"/>
-		<label t="45.5253403152" t1="46.6529869759" title="vocal a"/>
-		<label t="46.6529869759" t1="47.8385774962" title="vocal echo"/>
-		<label t="58.5616788223" t1="59.7726748538" title="vocal a"/>
-		<label t="59.7726748538" t1="61.0006078927" title="vocal echo"/>
-		<label t="61.0006078927" t1="61.8728637756" title="vocal b"/>
-		<label t="61.8728637756" t1="63.0838598071" title="vocal a"/>
-		<label t="63.0838598071" t1="64.2355763126" title="vocal echo"/>
-		<label t="64.2355763126" t1="65.1840487288" title="vocal b"/>
-		<label t="65.1840487288" t1="66.3253211100" title="vocal a"/>
-		<label t="66.3253211100" t1="67.4008210821" title="vocal echo"/>
-		<label t="78.0880727727" t1="79.2990688042" title="vocal a"/>
-		<label t="79.2990688042" t1="80.5270018431" title="vocal echo"/>
-		<label t="80.5270018431" t1="81.3992577260" title="vocal b"/>
-		<label t="81.3992577260" t1="82.6102537575" title="vocal a"/>
-		<label t="82.6102537575" t1="83.7619702629" title="vocal echo"/>
-		<label t="83.7619702629" t1="84.7104426792" title="vocal b"/>
-		<label t="84.7104426792" t1="85.8517150604" title="vocal a"/>
-		<label t="85.8517150604" t1="86.9272150325" title="vocal echo"/>
-		<label t="97.7095958845" t1="98.9205919160" title="vocal a"/>
-		<label t="98.9205919160" t1="100.1485249550" title="vocal echo"/>
-		<label t="100.1485249550" t1="101.0207808378" title="vocal b"/>
-		<label t="101.0207808378" t1="102.2317768693" title="vocal a"/>
-		<label t="102.2317768693" t1="103.3834933748" title="vocal echo"/>
-		<label t="103.3834933748" t1="104.3319657911" title="vocal b"/>
-		<label t="104.3319657911" t1="105.4732381723" title="vocal a"/>
-		<label t="105.4732381723" t1="106.5487381443" title="vocal echo"/>
-		<label t="127.1199003780" t1="128.3308964095" title="vocal a"/>
-		<label t="128.3308964095" t1="129.5588294485" title="vocal echo"/>
-		<label t="129.5588294485" t1="130.4310853313" title="vocal b"/>
-		<label t="130.4310853313" t1="131.6420813628" title="vocal a"/>
-		<label t="131.6420813628" t1="132.7937978683" title="vocal echo"/>
-		<label t="132.7937978683" t1="133.7422702846" title="vocal b"/>
-		<label t="133.7422702846" t1="134.8835426658" title="vocal a"/>
-		<label t="134.8835426658" t1="135.9590426378" title="vocal echo"/>
-		<label t="146.6660158714" t1="147.8770119029" title="vocal a"/>
-		<label t="147.8770119029" t1="149.1049449418" title="vocal echo"/>
-		<label t="149.1049449418" t1="149.9772008247" title="vocal b"/>
-		<label t="149.9772008247" t1="151.1881968562" title="vocal a"/>
-		<label t="151.1881968562" t1="152.3399133617" title="vocal echo"/>
-		<label t="152.3399133617" t1="153.2883857779" title="vocal b"/>
-		<label t="153.2883857779" t1="154.4296581591" title="vocal a"/>
-		<label t="154.4296581591" t1="155.5051581312" title="vocal echo"/>
-		<label t="166.2282594572" t1="167.4392554887" title="vocal a"/>
-		<label t="167.4392554887" t1="168.6671885277" title="vocal echo"/>
-		<label t="168.6671885277" t1="169.5394444105" title="vocal b"/>
-		<label t="169.5394444105" t1="170.7504404420" title="vocal a"/>
-		<label t="170.7504404420" t1="171.9021569475" title="vocal echo"/>
-		<label t="171.9021569475" t1="172.8506293638" title="vocal b"/>
-		<label t="172.8506293638" t1="173.9919017450" title="vocal a"/>
-		<label t="173.9919017450" t1="175.0674017170" title="vocal echo"/>
-		<label t="197.1467665273" t1="205.3668137542" title="vocal end"/>
-	</labeltrack>
-	<labeltrack name="transition rush" numlabels="1" height="73" minimized="0" isSelected="0">
-		<label t="87.9377633314" t1="88.8118472172" title="transition rush"/>
+		<label t="19.2827829632" t1="20.4937789947" title="vocal_a"/>
+		<label t="20.4937789947" t1="21.7217120336" title="vocal_echo"/>
+		<label t="21.7217120336" t1="22.5939679164" title="vocal_b"/>
+		<label t="22.5939679164" t1="23.8049639479" title="vocal_a"/>
+		<label t="23.8049639479" t1="24.9566804534" title="vocal_echo"/>
+		<label t="24.9566804534" t1="25.9051528697" title="vocal_b"/>
+		<label t="25.9051528697" t1="27.1161489012" title="vocal_a"/>
+		<label t="27.1161489012" t1="28.3440819402" title="vocal_echo"/>
+		<label t="38.9029704087" t1="40.1139664402" title="vocal_a"/>
+		<label t="40.1139664402" t1="41.3418994791" title="vocal_echo"/>
+		<label t="41.3418994791" t1="42.2141553619" title="vocal_b"/>
+		<label t="42.2141553619" t1="43.4251513934" title="vocal_a"/>
+		<label t="43.4251513934" t1="44.5768678989" title="vocal_echo"/>
+		<label t="44.5768678989" t1="45.5253403152" title="vocal_b"/>
+		<label t="45.5253403152" t1="46.6529869759" title="vocal_a"/>
+		<label t="46.6529869759" t1="47.8385774962" title="vocal_echo"/>
+		<label t="58.5616788223" t1="59.7726748538" title="vocal_a"/>
+		<label t="59.7726748538" t1="61.0006078927" title="vocal_echo"/>
+		<label t="61.0006078927" t1="61.8728637756" title="vocal_b"/>
+		<label t="61.8728637756" t1="63.0838598071" title="vocal_a"/>
+		<label t="63.0838598071" t1="64.2355763126" title="vocal_echo"/>
+		<label t="64.2355763126" t1="65.1840487288" title="vocal_b"/>
+		<label t="65.1840487288" t1="66.3253211100" title="vocal_a"/>
+		<label t="66.3253211100" t1="67.4008210821" title="vocal_echo"/>
+		<label t="78.0880727727" t1="79.2990688042" title="vocal_a"/>
+		<label t="79.2990688042" t1="80.5270018431" title="vocal_echo"/>
+		<label t="80.5270018431" t1="81.3992577260" title="vocal_b"/>
+		<label t="81.3992577260" t1="82.6102537575" title="vocal_a"/>
+		<label t="82.6102537575" t1="83.7619702629" title="vocal_echo"/>
+		<label t="83.7619702629" t1="84.7104426792" title="vocal_b"/>
+		<label t="84.7104426792" t1="85.8517150604" title="vocal_a"/>
+		<label t="85.8517150604" t1="86.9272150325" title="vocal_echo"/>
+		<label t="97.7095958845" t1="98.9205919160" title="vocal_a"/>
+		<label t="98.9205919160" t1="100.1485249550" title="vocal_echo"/>
+		<label t="100.1485249550" t1="101.0207808378" title="vocal_b"/>
+		<label t="101.0207808378" t1="102.2317768693" title="vocal_a"/>
+		<label t="102.2317768693" t1="103.3834933748" title="vocal_echo"/>
+		<label t="103.3834933748" t1="104.3319657911" title="vocal_b"/>
+		<label t="104.3319657911" t1="105.4732381723" title="vocal_a"/>
+		<label t="105.4732381723" t1="106.5487381443" title="vocal_echo"/>
+		<label t="127.1199003780" t1="128.3308964095" title="vocal_a"/>
+		<label t="128.3308964095" t1="129.5588294485" title="vocal_echo"/>
+		<label t="129.5588294485" t1="130.4310853313" title="vocal_b"/>
+		<label t="130.4310853313" t1="131.6420813628" title="vocal_a"/>
+		<label t="131.6420813628" t1="132.7937978683" title="vocal_echo"/>
+		<label t="132.7937978683" t1="133.7422702846" title="vocal_b"/>
+		<label t="133.7422702846" t1="134.8835426658" title="vocal_a"/>
+		<label t="134.8835426658" t1="135.9590426378" title="vocal_echo"/>
+		<label t="146.6660158714" t1="147.8770119029" title="vocal_a"/>
+		<label t="147.8770119029" t1="149.1049449418" title="vocal_echo"/>
+		<label t="149.1049449418" t1="149.9772008247" title="vocal_b"/>
+		<label t="149.9772008247" t1="151.1881968562" title="vocal_a"/>
+		<label t="151.1881968562" t1="152.3399133617" title="vocal_echo"/>
+		<label t="152.3399133617" t1="153.2883857779" title="vocal_b"/>
+		<label t="153.2883857779" t1="154.4296581591" title="vocal_a"/>
+		<label t="154.4296581591" t1="155.5051581312" title="vocal_echo"/>
+		<label t="166.2282594572" t1="167.4392554887" title="vocal_a"/>
+		<label t="167.4392554887" t1="168.6671885277" title="vocal_echo"/>
+		<label t="168.6671885277" t1="169.5394444105" title="vocal_b"/>
+		<label t="169.5394444105" t1="170.7504404420" title="vocal_a"/>
+		<label t="170.7504404420" t1="171.9021569475" title="vocal_echo"/>
+		<label t="171.9021569475" t1="172.8506293638" title="vocal_b"/>
+		<label t="172.8506293638" t1="173.9919017450" title="vocal_a"/>
+		<label t="173.9919017450" t1="175.0674017170" title="vocal_echo"/>
+		<label t="197.1467665273" t1="205.3668137542" title="vocal_end"/>
 	</labeltrack>
 	<labeltrack name="Sparkle" numlabels="9" height="51" minimized="0" isSelected="0">
-		<label t="29.1677577553" t1="38.9029704087" title="sparkle block"/>
-		<label t="48.9017249490" t1="58.5616788223" title="sparkle block"/>
-		<label t="68.3517050122" t1="78.2542257390" title="sparkle block"/>
-		<label t="127.1199003780" t1="136.8091870359" title="sparkle block z"/>
-		<label t="146.7324166833" t1="156.3920976390" title="sparkle block z"/>
-		<label t="166.2282594572" t1="175.2810899305" title="sparkle block"/>
-		<label t="185.8832955263" t1="195.7160096393" title="sparkle block"/>
-		<label t="195.7160096393" t1="205.3668137542" title="quiet sparkle block"/>
-		<label t="205.3668137542" t1="224.9556482969" title="end sparkle block"/>
+		<label t="29.1677577553" t1="38.9029704087" title="sparkle_block"/>
+		<label t="48.9017249490" t1="58.5616788223" title="sparkle_block"/>
+		<label t="68.3517050122" t1="78.2542257390" title="sparkle_block"/>
+		<label t="127.1199003780" t1="136.8091870359" title="sparkle_block_z"/>
+		<label t="146.7324166833" t1="156.3920976390" title="sparkle_block_z"/>
+		<label t="166.2282594572" t1="175.2810899305" title="sparkle_block"/>
+		<label t="185.8832955263" t1="195.7160096393" title="sparkle_block"/>
+		<label t="195.7160096393" t1="205.3668137542" title="sparkle_block_quiet"/>
+		<label t="205.3668137542" t1="224.9556482969" title="sparkle_block_end"/>
 	</labeltrack>
-	<labeltrack name="Label Track" numlabels="3" height="73" minimized="0" isSelected="0">
+	<labeltrack name="misc" numlabels="4" height="73" minimized="0" isSelected="0">
 		<label t="0.0000000000" t1="19.2647241248" title="intro"/>
-		<label t="107.5342714812" t1="127.1106899284" title="pad block"/>
+		<label t="87.9377633314" t1="88.8118472172" title="transition_rush"/>
+		<label t="107.5342714812" t1="127.1106899284" title="pad_block"/>
 		<label t="224.9556482969" t1="230.5955780754" title="outro"/>
 	</labeltrack>
 </project>
