@@ -11,6 +11,7 @@ def setupParameters(dat):
 	p.clampMin=True
 	p.normMax=20
 	page.appendToggle('Overridewidth', label='Override Width')
+	page.appendToggle('Blockmode', label='Block Mode')
 	pass
 
 
