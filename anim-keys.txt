@@ -43,3 +43,12 @@ id	x	y	inslope	inaccel	expression	outslope	outaccel
 2	1708	1	0	0	constant()	0	0
 2	1720	0	0	0	constant()	0	0
 2	13855	0	0	0	constant()	0	0
+12	1	0	0	0	ease()	0	0
+12	1165	1	0	0	ease()	0	0
+12	12343	1	-0.000178814	0	ease()	-0.000178814	0
+12	13855	0	0	0	ease()		
+13	1	0	0	0	linear()	0	0
+13	1165	1	0	0	linear()	0	0
+13	12343	2	0	0	linear()	0	0
+13	13507	3	-0.00089407	0	linear()	-0.00089407	0
+13	13845	4	0	0	linear()		
