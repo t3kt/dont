@@ -1,6 +1,6 @@
 <?xml version="1.0" standalone="no" ?>
 <!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
-<project xmlns="http://audacity.sourceforge.net/xml/" projname="dont_data" version="1.3.0" audacityversion="2.1.1" sel0="14.6023533638" sel1="14.6023533638" vpos="0" h="0.0000000000" zoom="10.0695773066" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + film frames (24 fps)" frequencyformat="Hz" bandwidthformat="octaves">
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="dont_data" version="1.3.0" audacityversion="2.2.0" sel0="187.3260604453" sel1="187.3260604453" vpos="0" h="184.5383239171" zoom="732.1351854301" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + film frames (24 fps)" frequencyformat="Hz" bandwidthformat="octaves">
 	<tags>
 		<tag name="ARTIST" value="datassette"/>
 		<tag name="TRACKNUMBER" value="3"/>
@@ -11,7 +11,7 @@
 		<tag name="ALBUM" value="People Without Mouths"/>
 		<tag name="COMMENTS" value="Visit http://datassette.bandcamp.com"/>
 	</tags>
-	<wavetrack name="datassette - People Without Mouths - 03 Don&apos;t" channel="0" linked="1" mute="0" solo="0" height="73" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+	<wavetrack name="datassette - People Without Mouths - 03 Don&apos;t" channel="0" linked="1" mute="0" solo="0" height="73" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
 		<waveclip offset="0.00000000">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="10151822">
 				<waveblock start="0">
@@ -135,7 +135,7 @@
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<wavetrack name="datassette - People Without Mouths - 03 Don&apos;t" channel="1" linked="0" mute="0" solo="0" height="375" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+	<wavetrack name="datassette - People Without Mouths - 03 Don&apos;t" channel="1" linked="0" mute="0" solo="0" height="375" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
 		<waveclip offset="0.00000000">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="10151822">
 				<waveblock start="0">
@@ -259,6 +259,20 @@
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
+	<labeltrack name="sparkle_note" numlabels="12" height="73" minimized="0" isSelected="0">
+		<label t="185.9260457753" t1="185.9260457753" title="note"/>
+		<label t="185.9943391739" t1="185.9943391739" title="note"/>
+		<label t="186.1350235748" t1="186.1350235748" title="note"/>
+		<label t="186.3303426947" t1="186.3303426947" title="note"/>
+		<label t="186.4723929636" t1="186.4723929636" title="note"/>
+		<label t="186.6089797607" t1="186.6089797607" title="note"/>
+		<label t="186.7414689538" t1="186.7414689538" title="note"/>
+		<label t="186.8083964844" t1="186.8083964844" title="note"/>
+		<label t="186.8794216189" t1="186.8794216189" title="note"/>
+		<label t="187.0132766800" t1="187.0132766800" title="note"/>
+		<label t="187.0843018145" t1="187.0843018145" title="note"/>
+		<label t="187.2154251397" t1="187.2154251397" title="note"/>
+	</labeltrack>
 	<labeltrack name="synth_a" numlabels="10" height="73" minimized="0" isSelected="0">
 		<label t="136.8790180666" t1="140.1410439404" title="synth_a"/>
 		<label t="140.1410439404" t1="143.4582248410" title="synth_a"/>
@@ -383,11 +397,11 @@
 		<label t="195.7160096393" t1="205.3668137542" title="sparkle_block_quiet"/>
 		<label t="205.3668137542" t1="224.9556482969" title="sparkle_block_end"/>
 	</labeltrack>
-	<labeltrack name="misc" numlabels="5" height="73" minimized="0" isSelected="0">
+	<labeltrack name="misc" numlabels="2" height="73" minimized="0" isSelected="0">
 		<label t="87.9377633314" t1="88.8118472172" title="transition_rush"/>
 		<label t="107.5342714812" t1="127.1106899284" title="pad_block"/>
 	</labeltrack>
-	<labeltrack name="quiet" numlabels="0" height="73" minimized="0" isSelected="0">
+	<labeltrack name="quiet" numlabels="3" height="73" minimized="0" isSelected="0">
 		<label t="0.0000000000" t1="19.2647241248" title="intro"/>
 		<label t="205.5548174038" t1="224.9556329066" title="pre_outro"/>
 		<label t="224.9556482969" t1="230.5955780754" title="outro"/>
