@@ -1,5 +1,7 @@
 def setupParameters(dat):
 	page = dat.appendCustomPage('Custom')
+	p = page.appendToggle('Keepid', label='Keep ID')[0]
+	p.default = False
 	p = page.appendInt('Newid', label='New ID')[0]
 	p.min=1
 	p.normMin=1
@@ -19,8 +21,10 @@ def cook(dat):
 	newId = dat.par.Newid.eval()
 	startOffset = dat.par.Startoffset.eval()
 	endOffset = dat.par.Endoffset.eval()
+	keepid = dat.par.Keepid.eval()
 	for row in dat.rows()[1:]:
-		row[0].val = newId
+		if not keepid:
+			row[0].val = newId
 		t = float(row[1])
 		if t == 0:
 			continue

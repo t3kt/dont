@@ -1,6 +1,6 @@
 <?xml version="1.0" standalone="no" ?>
 <!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
-<project xmlns="http://audacity.sourceforge.net/xml/" projname="dont_data" version="1.3.0" audacityversion="2.2.0" sel0="202.2182140134" sel1="205.3668137542" vpos="0" h="185.3408233088" zoom="80.5219256803" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + film frames (24 fps)" frequencyformat="Hz" bandwidthformat="octaves">
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="dont_data" version="1.3.0" audacityversion="2.2.0" sel0="10.0740750579" sel1="10.0740750579" vpos="0" h="0.0000000000" zoom="9.9264696188" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + film frames (24 fps)" frequencyformat="Hz" bandwidthformat="octaves">
 	<tags>
 		<tag name="ARTIST" value="datassette"/>
 		<tag name="TRACKNUMBER" value="3"/>
@@ -259,6 +259,30 @@
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
+	<labeltrack name="sections" numlabels="22" height="71" minimized="0" isSelected="1">
+		<label t="0.0000000000" t1="19.2592330593" title="1_intro_quiet"/>
+		<label t="19.2592330593" t1="29.1677577553" title="2_basic"/>
+		<label t="29.1677577553" t1="38.9029704087" title="3_basic_sparkle"/>
+		<label t="38.9029704087" t1="48.9017249490" title="4_basic_shake"/>
+		<label t="48.9017249490" t1="58.5616788223" title="5_basic_sparkle"/>
+		<label t="58.5616788223" t1="68.3517050122" title="6_vocal_shake"/>
+		<label t="68.3517050122" t1="78.0408559148" title="7_basic_sparkle"/>
+		<label t="78.0408559148" t1="87.9377633314" title="8_vocal_shake"/>
+		<label t="87.9377633314" t1="97.7095958845" title="9_heavy_shake"/>
+		<label t="97.7095958845" t1="107.5342714812" title="10_heavy_vocal_shake"/>
+		<label t="107.5342714812" t1="127.1106899284" title="11_pad_shake"/>
+		<label t="127.1106899284" t1="136.8091870359" title="12_heavy_sparkle"/>
+		<label t="136.8091870359" t1="146.7202507148" title="13_heavy_rush"/>
+		<label t="146.7202507148" t1="156.3920976390" title="14_heavy_sparkle"/>
+		<label t="156.3920976390" t1="166.2282594572" title="15_heavy_rush"/>
+		<label t="166.2282594572" t1="175.9839321043" title="16_heavy_sparkle"/>
+		<label t="175.9839321043" t1="185.8832955263" title="17_heavy_rush"/>
+		<label t="185.8832955263" t1="195.6112423740" title="18_heavy_sparkle"/>
+		<label t="195.6112423740" t1="205.3668137542" title="19_heavy_sparkle"/>
+		<label t="205.3668137542" t1="215.3699114059" title="20_outro_sparkle"/>
+		<label t="215.3699114059" t1="224.9556482969" title="21_outro_sparkle"/>
+		<label t="224.9556482969" t1="230.2000453515" title="22_fade_out"/>
+	</labeltrack>
 	<labeltrack name="sparkle_note" numlabels="12" height="73" minimized="0" isSelected="0">
 		<label t="185.9260457753" t1="185.9260457753" title="note"/>
 		<label t="185.9943391739" t1="185.9943391739" title="note"/>
@@ -273,7 +297,7 @@
 		<label t="187.0843018145" t1="187.0843018145" title="note"/>
 		<label t="187.2154251397" t1="187.2154251397" title="note"/>
 	</labeltrack>
-	<labeltrack name="synth_a" numlabels="12" height="73" minimized="0" isSelected="1">
+	<labeltrack name="synth_a" numlabels="12" height="73" minimized="0" isSelected="0">
 		<label t="136.8790180666" t1="140.1410439404" title="synth_a"/>
 		<label t="140.1410439404" t1="143.4582248410" title="synth_a"/>
 		<label t="143.4582248410" t1="146.7202507148" title="synth_a"/>
@@ -287,7 +311,7 @@
 		<label t="198.8732682478" t1="202.2182140134" title="synth_a"/>
 		<label t="202.2182140134" t1="205.3668137542" title="synth_a"/>
 	</labeltrack>
-	<labeltrack name="ping" numlabels="24" height="113" minimized="0" isSelected="0">
+	<labeltrack name="ping" numlabels="24" height="61" minimized="0" isSelected="0">
 		<label t="89.6837169323" t1="89.6837169323" title="ping"/>
 		<label t="92.9358682712" t1="92.9358682712" title="ping"/>
 		<label t="96.2088218360" t1="96.2088218360" title="ping"/>
@@ -313,7 +337,7 @@
 		<label t="220.2947648424" t1="220.2947648424" title="ping"/>
 		<label t="223.5580135782" t1="223.5580135782" title="ping"/>
 	</labeltrack>
-	<labeltrack name="drum" numlabels="6" height="73" minimized="0" isSelected="0">
+	<labeltrack name="drum" numlabels="6" height="49" minimized="0" isSelected="0">
 		<label t="19.2592330593" t1="19.2592330593" title="B"/>
 		<label t="20.3995504614" t1="20.3995504614" title="b"/>
 		<label t="20.4796153003" t1="20.4796153003" title="B"/>
