@@ -4,3 +4,5 @@ dont-output-*.*
 *.dmp
 
 CrashAutoSave\.toe
+
+\.idea/
