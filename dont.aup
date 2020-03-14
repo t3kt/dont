@@ -1,6 +1,6 @@
 <?xml version="1.0" standalone="no" ?>
 <!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
-<project xmlns="http://audacity.sourceforge.net/xml/" projname="dont_data" version="1.3.0" audacityversion="2.2.0" sel0="10.0740750579" sel1="10.0740750579" vpos="0" h="0.0000000000" zoom="9.9264696188" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + film frames (24 fps)" frequencyformat="Hz" bandwidthformat="octaves">
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="dont_data" version="1.3.0" audacityversion="2.2.0" sel0="58.5401996477" sel1="58.5401996477" vpos="0" h="58.0284311662" zoom="3761.4665020789" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + film frames (24 fps)" frequencyformat="Hz" bandwidthformat="octaves">
 	<tags>
 		<tag name="ARTIST" value="datassette"/>
 		<tag name="TRACKNUMBER" value="3"/>
@@ -11,7 +11,7 @@
 		<tag name="ALBUM" value="People Without Mouths"/>
 		<tag name="COMMENTS" value="Visit http://datassette.bandcamp.com"/>
 	</tags>
-	<wavetrack name="datassette - People Without Mouths - 03 Don&apos;t" channel="0" linked="1" mute="0" solo="0" height="73" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+	<wavetrack name="datassette - People Without Mouths - 03 Don&apos;t" channel="0" linked="1" mute="0" solo="0" height="73" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
 		<waveclip offset="0.00000000">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="10151822">
 				<waveblock start="0">
@@ -135,7 +135,7 @@
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<wavetrack name="datassette - People Without Mouths - 03 Don&apos;t" channel="1" linked="0" mute="0" solo="0" height="375" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+	<wavetrack name="datassette - People Without Mouths - 03 Don&apos;t" channel="1" linked="0" mute="0" solo="0" height="375" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
 		<waveclip offset="0.00000000">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="10151822">
 				<waveblock start="0">
@@ -259,7 +259,104 @@
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<labeltrack name="sections" numlabels="22" height="71" minimized="0" isSelected="1">
+	<labeltrack name="sparkle_note" numlabels="95" height="73" minimized="0" isSelected="0">
+		<label t="48.9378278122" t1="48.9378278122" title="note"/>
+		<label t="48.9636156266" t1="48.9636156266" title="note"/>
+		<label t="49.0000375912" t1="49.0000375912" title="note"/>
+		<label t="49.0473595599" t1="49.0473595599" title="note?"/>
+		<label t="49.1119620228" t1="49.1119620228" title="note"/>
+		<label t="49.3483060124" t1="49.3483060124" title="note"/>
+		<label t="49.4153011591" t1="49.4153011591" title="note"/>
+		<label t="49.4700670329" t1="49.4700670329" title="note"/>
+		<label t="49.7824451970" t1="49.7824451970" title="note"/>
+		<label t="49.8720379130" t1="49.8720379130" title="note"/>
+		<label t="50.3651966315" t1="50.3651966315" title="note"/>
+		<label t="50.8198065553" t1="50.8198065553" title="note"/>
+		<label t="50.8913212159" t1="50.8913212159" title="note"/>
+		<label t="50.9708114891" t1="50.9708114891" title="note"/>
+		<label t="51.0059041850" t1="51.0059041850" title="note"/>
+		<label t="51.4060140887" t1="51.4060140887" title="note"/>
+		<label t="51.6630946713" t1="51.6630946713" title="note"/>
+		<label t="51.7946922809" t1="51.7946922809" title="note"/>
+		<label t="51.8494581547" t1="51.8494581547" title="note"/>
+		<label t="52.1387070420" t1="52.1387070420" title="note"/>
+		<label t="52.1737997378" t1="52.1737997378" title="note?"/>
+		<label t="52.2306924417" t1="52.2306924417" title="note?"/>
+		<label t="52.2689753827" t1="52.2689753827" title="note"/>
+		<label t="52.3351729681" t1="52.3351729681" title="note"/>
+		<label t="52.3556437074" t1="52.3556437074" title="note"/>
+		<label t="52.5236632815" t1="52.5236632815" title="note"/>
+		<label t="52.7017852985" t1="52.7017852985" title="note"/>
+		<label t="52.7360804331" t1="52.7360804331" title="note"/>
+		<label t="53.0465976208" t1="53.0465976208" title="note"/>
+		<label t="53.1375196056" t1="53.1375196056" title="note"/>
+		<label t="53.4977514458" t1="53.4977514458" title="note?"/>
+		<label t="53.5690002526" t1="53.5690002526" title="note"/>
+		<label t="53.9302955079" t1="53.9302955079" title="note"/>
+		<label t="54.0996443508" t1="54.0996443508" title="note"/>
+		<label t="54.1578663235" t1="54.1578663235" title="note"/>
+		<label t="54.2620809961" t1="54.2620809961" title="note?"/>
+		<label t="54.7103104298" t1="54.7103104298" title="note"/>
+		<label t="54.7778372840" t1="54.7778372840" title="note"/>
+		<label t="54.8211714463" t1="54.8211714463" title="note"/>
+		<label t="54.8653031699" t1="54.8653031699" title="note"/>
+		<label t="54.8972056207" t1="54.8972056207" title="note?"/>
+		<label t="54.9519714946" t1="54.9519714946" title="note"/>
+		<label t="55.0343861591" t1="55.0343861591" title="note?"/>
+		<label t="55.1237130213" t1="55.1237130213" title="note"/>
+		<label t="55.1436520531" t1="55.1436520531" title="note?"/>
+		<label t="55.3409155405" t1="55.3409155405" title="note"/>
+		<label t="55.4020619045" t1="55.4020619045" title="note"/>
+		<label t="55.4281155727" t1="55.4281155727" title="note"/>
+		<label t="55.4515107033" t1="55.4515107033" title="note?"/>
+		<label t="55.4953765731" t1="55.4953765731" title="note?"/>
+		<label t="55.6612693172" t1="55.6612693172" title="note"/>
+		<label t="55.7890120473" t1="55.7890120473" title="note?"/>
+		<label t="55.8336754784" t1="55.8336754784" title="note"/>
+		<label t="55.9030633089" t1="55.9030633089" title="note"/>
+		<label t="56.3774793376" t1="56.3774793376" title="note"/>
+		<label t="56.4016720294" t1="56.4016720294" title="note"/>
+		<label t="56.5268891488" t1="56.5268891488" title="note"/>
+		<label t="56.8315575539" t1="56.8315575539" title="note"/>
+		<label t="56.9820307802" t1="56.9820307802" title="note"/>
+		<label t="57.1987015918" t1="57.1987015918" title="note"/>
+		<label t="57.2170455010" t1="57.2170455010" title="note"/>
+		<label t="57.4143089884" t1="57.4143089884" title="note"/>
+		<label t="57.8059115719" t1="57.8059115719" title="note?"/>
+		<label t="57.8242554812" t1="57.8242554812" title="note?"/>
+		<label t="57.8606774458" t1="57.8606774458" title="note?"/>
+		<label t="58.0231140911" t1="58.0231140911" title="note"/>
+		<label t="58.0443823916" t1="58.0443823916" title="note"/>
+		<label t="58.0648531309" t1="58.0648531309" title="note"/>
+		<label t="58.1504580405" t1="58.1504580405" title="note"/>
+		<label t="58.2820556501" t1="58.2820556501" title="note"/>
+		<label t="58.3458605517" t1="58.3458605517" title="note?"/>
+		<label t="58.3671288522" t1="58.3671288522" title="note"/>
+		<label t="185.9260457753" t1="185.9260457753" title="note"/>
+		<label t="185.9943391739" t1="185.9943391739" title="note"/>
+		<label t="186.1350235748" t1="186.1350235748" title="note"/>
+		<label t="186.3303426947" t1="186.3303426947" title="note"/>
+		<label t="186.4723929636" t1="186.4723929636" title="note"/>
+		<label t="186.6089797607" t1="186.6089797607" title="note"/>
+		<label t="186.7414689538" t1="186.7414689538" title="note"/>
+		<label t="186.8083964844" t1="186.8083964844" title="note"/>
+		<label t="186.8794216189" t1="186.8794216189" title="note"/>
+		<label t="187.0132766800" t1="187.0132766800" title="note"/>
+		<label t="187.0843018145" t1="187.0843018145" title="note"/>
+		<label t="187.2154251397" t1="187.2154251397" title="note"/>
+		<label t="187.6964741304" t1="187.6964741304" title="note"/>
+		<label t="187.8325912538" t1="187.8325912538" title="note"/>
+		<label t="187.9660498397" t1="187.9660498397" title="note"/>
+		<label t="188.1032303781" t1="188.1032303781" title="note"/>
+		<label t="188.1723523548" t1="188.1723523548" title="note"/>
+		<label t="188.5110500408" t1="188.5110500408" title="note"/>
+		<label t="188.6466354566" t1="188.6466354566" title="note"/>
+		<label t="188.7827525800" t1="188.7827525800" title="note"/>
+		<label t="188.9204648260" t1="188.9204648260" title="note"/>
+		<label t="188.9901185102" t1="188.9901185102" title="note"/>
+		<label t="189.0565819493" t1="189.0565819493" title="note"/>
+	</labeltrack>
+	<labeltrack name="sections" numlabels="22" height="71" minimized="0" isSelected="0">
 		<label t="0.0000000000" t1="19.2592330593" title="1_intro_quiet"/>
 		<label t="19.2592330593" t1="29.1677577553" title="2_basic"/>
 		<label t="29.1677577553" t1="38.9029704087" title="3_basic_sparkle"/>
@@ -282,20 +379,6 @@
 		<label t="205.3668137542" t1="215.3699114059" title="20_outro_sparkle"/>
 		<label t="215.3699114059" t1="224.9556482969" title="21_outro_sparkle"/>
 		<label t="224.9556482969" t1="230.2000453515" title="22_fade_out"/>
-	</labeltrack>
-	<labeltrack name="sparkle_note" numlabels="12" height="73" minimized="0" isSelected="0">
-		<label t="185.9260457753" t1="185.9260457753" title="note"/>
-		<label t="185.9943391739" t1="185.9943391739" title="note"/>
-		<label t="186.1350235748" t1="186.1350235748" title="note"/>
-		<label t="186.3303426947" t1="186.3303426947" title="note"/>
-		<label t="186.4723929636" t1="186.4723929636" title="note"/>
-		<label t="186.6089797607" t1="186.6089797607" title="note"/>
-		<label t="186.7414689538" t1="186.7414689538" title="note"/>
-		<label t="186.8083964844" t1="186.8083964844" title="note"/>
-		<label t="186.8794216189" t1="186.8794216189" title="note"/>
-		<label t="187.0132766800" t1="187.0132766800" title="note"/>
-		<label t="187.0843018145" t1="187.0843018145" title="note"/>
-		<label t="187.2154251397" t1="187.2154251397" title="note"/>
 	</labeltrack>
 	<labeltrack name="synth_a" numlabels="12" height="73" minimized="0" isSelected="0">
 		<label t="136.8790180666" t1="140.1410439404" title="synth_a"/>
